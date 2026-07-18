@@ -15,6 +15,12 @@ dist-ssr
 .env.*
 .env.local
 
+# Supabase database/migration files
+supabase-schema.sql
+supabase-patch.sql
+supabase-patch-images.sql
+migrations/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
